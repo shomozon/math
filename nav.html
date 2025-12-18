@@ -1,0 +1,35 @@
+<style>
+nav {
+  position: relative;
+  z-index: 2;
+  background-color: #fdfcfc;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.menu {
+  list-style: none;
+}
+nav ul li:hover .submenu {
+  display: inline-block;
+}
+.submenu {
+  position: absolute;
+  background-color: #fdfdfd;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  top: 100%;
+  display: none;
+}
+</style>
+<nav>
+  <ul class="menu">
+    <li>
+      <p>ページ</p>
+      <ul class="submenu">
+        <li><a href="index.html">calcu1</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
